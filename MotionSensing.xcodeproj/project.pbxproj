@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B564514D1CB4B52F00843453 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B564514C1CB4B52F00843453 /* main.m */; };
+		B56451501CB4B52F00843453 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B564514F1CB4B52F00843453 /* AppDelegate.m */; };
+		B56451531CB4B52F00843453 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B56451521CB4B52F00843453 /* ViewController.mm */; };
+		B56451561CB4B52F00843453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56451541CB4B52F00843453 /* Main.storyboard */; };
+		B56451581CB4B52F00843453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56451571CB4B52F00843453 /* Assets.xcassets */; };
+		B564515B1CB4B52F00843453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56451591CB4B52F00843453 /* LaunchScreen.storyboard */; };
+		B56451631CB4B5C400843453 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56451621CB4B5C400843453 /* CoreMotion.framework */; };
+		B59C88601CC7DCBE00504F5C /* DataController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B59C885E1CC7DCBE00504F5C /* DataController.cpp */; };
+		B5A423771CB564B800052663 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A423761CB564B800052663 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B56451481CB4B52F00843453 /* MotionSensing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionSensing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B564514C1CB4B52F00843453 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B564514E1CB4B52F00843453 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B564514F1CB4B52F00843453 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B56451511CB4B52F00843453 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B56451521CB4B52F00843453 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		B56451551CB4B52F00843453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B56451571CB4B52F00843453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B564515A1CB4B52F00843453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B564515C1CB4B52F00843453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56451621CB4B5C400843453 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B59C885E1CC7DCBE00504F5C /* DataController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataController.cpp; sourceTree = "<group>"; };
+		B59C885F1CC7DCBE00504F5C /* DataController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DataController.hpp; sourceTree = "<group>"; };
+		B59C8E691CC7DFC000504F5C /* StringMath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringMath.hpp; sourceTree = "<group>"; };
+		B5A423761CB564B800052663 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B56451451CB4B52F00843453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A423771CB564B800052663 /* CoreLocation.framework in Frameworks */,
+				B56451631CB4B5C400843453 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B564513F1CB4B52F00843453 = {
+			isa = PBXGroup;
+			children = (
+				B5A423761CB564B800052663 /* CoreLocation.framework */,
+				B56451621CB4B5C400843453 /* CoreMotion.framework */,
+				B564514A1CB4B52F00843453 /* MotionSensing */,
+				B56451491CB4B52F00843453 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B56451491CB4B52F00843453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56451481CB4B52F00843453 /* MotionSensing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B564514A1CB4B52F00843453 /* MotionSensing */ = {
+			isa = PBXGroup;
+			children = (
+				B564514E1CB4B52F00843453 /* AppDelegate.h */,
+				B564514F1CB4B52F00843453 /* AppDelegate.m */,
+				B56451511CB4B52F00843453 /* ViewController.h */,
+				B56451521CB4B52F00843453 /* ViewController.mm */,
+				B59C8E691CC7DFC000504F5C /* StringMath.hpp */,
+				B59C885E1CC7DCBE00504F5C /* DataController.cpp */,
+				B59C885F1CC7DCBE00504F5C /* DataController.hpp */,
+				B564515C1CB4B52F00843453 /* Info.plist */,
+				B56451541CB4B52F00843453 /* Main.storyboard */,
+				B56451571CB4B52F00843453 /* Assets.xcassets */,
+				B56451591CB4B52F00843453 /* LaunchScreen.storyboard */,
+				B564514B1CB4B52F00843453 /* Supporting Files */,
+			);
+			path = MotionSensing;
+			sourceTree = "<group>";
+		};
+		B564514B1CB4B52F00843453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B564514C1CB4B52F00843453 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B56451471CB4B52F00843453 /* MotionSensing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B564515F1CB4B52F00843453 /* Build configuration list for PBXNativeTarget "MotionSensing" */;
+			buildPhases = (
+				B56451441CB4B52F00843453 /* Sources */,
+				B56451451CB4B52F00843453 /* Frameworks */,
+				B56451461CB4B52F00843453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionSensing;
+			productName = MotionSensing;
+			productReference = B56451481CB4B52F00843453 /* MotionSensing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B56451401CB4B52F00843453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CouleeApps;
+				TargetAttributes = {
+					B56451471CB4B52F00843453 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = S4D224PX2U;
+					};
+				};
+			};
+			buildConfigurationList = B56451431CB4B52F00843453 /* Build configuration list for PBXProject "MotionSensing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B564513F1CB4B52F00843453;
+			productRefGroup = B56451491CB4B52F00843453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B56451471CB4B52F00843453 /* MotionSensing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B56451461CB4B52F00843453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B564515B1CB4B52F00843453 /* LaunchScreen.storyboard in Resources */,
+				B56451581CB4B52F00843453 /* Assets.xcassets in Resources */,
+				B56451561CB4B52F00843453 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B56451441CB4B52F00843453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56451531CB4B52F00843453 /* ViewController.mm in Sources */,
+				B59C88601CC7DCBE00504F5C /* DataController.cpp in Sources */,
+				B56451501CB4B52F00843453 /* AppDelegate.m in Sources */,
+				B564514D1CB4B52F00843453 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B56451541CB4B52F00843453 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56451551CB4B52F00843453 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B56451591CB4B52F00843453 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B564515A1CB4B52F00843453 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B564515D1CB4B52F00843453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B564515E1CB4B52F00843453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B56451601CB4B52F00843453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = thirdparty/;
+				INFOPLIST_FILE = MotionSensing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.couleeapps.MotionSensing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B56451611CB4B52F00843453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = thirdparty/;
+				INFOPLIST_FILE = MotionSensing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.couleeapps.MotionSensing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B56451431CB4B52F00843453 /* Build configuration list for PBXProject "MotionSensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B564515D1CB4B52F00843453 /* Debug */,
+				B564515E1CB4B52F00843453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B564515F1CB4B52F00843453 /* Build configuration list for PBXNativeTarget "MotionSensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56451601CB4B52F00843453 /* Debug */,
+				B56451611CB4B52F00843453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B56451401CB4B52F00843453 /* Project object */;
+}
